@@ -1,4 +1,8 @@
-a = "not"
+def count_evens(nums):
+    count = 0
+    if nums[x] %2 == 0:
+        count += 1
 
-# print(len(a) <= 3)
-print(a[0:3])
+    return nums
+    
+count_evens([2,3,2])
